@@ -32,6 +32,97 @@ export const Projects = () => {
             <div className="project_videocontainer">
               <div data-aos="fade-right">
                 <img
+                  src="https://user-images.githubusercontent.com/94324872/171921832-7950e4de-01ca-4372-9881-b26bf55d6247.png"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div className="project_information" data-aos="fade-right">
+              <h2>E-Commerce</h2>
+              <p>
+                E-Commerce web application were user can buy different product. It is a solo project and has most of the features of the shopping websites.
+              </p>
+              <div>
+              <SiExpress />
+                <SiMongodb />
+              <FaReact />
+                <SiNodedotjs />
+                <SiRedux/>
+                
+              </div>
+              <div>
+                <a
+                  href="https://e-commerce-alokkushwaha.vercel.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <span type="button" className="btn btn--outline onbt">
+                    URL for the API
+                  </span>
+                </a>
+                <a
+                  href="https://github.com/Alok0818/E-Commerce-mern-website"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <span type="button" className="btn btn--outline">
+                    View Code
+                  </span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="projects_container">
+          <div className="project">
+            <div className="project_videocontainer">
+              <div data-aos="fade-right">
+                <img
+                  src="https://user-images.githubusercontent.com/94324872/172460267-93a6d763-a318-40b4-b3e8-748994eac684.png"
+                  alt="Practo"
+                />
+              </div>
+            </div>
+            <div className="project_information" data-aos="fade-right">
+              <h2>Practo</h2>
+              <p>
+              Practo is leading healthcare platform that connects patients with healthcare products and providers online.
+              </p>
+              <div>
+              <SiExpress />
+                <SiMongodb />
+              <FaReact />
+                <SiNodedotjs />
+                <SiRedux/>
+              </div>
+              <div>
+                <a
+                  href="https://practo-pranavdalvi9.vercel.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <span type="button" className="btn btn--outline onbt">
+                    See this Live
+                  </span>
+                </a>
+                <a
+                  href="https://github.com/PranavDalvi9/PractoCloneReact"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <span type="button" className="btn btn--outline">
+                    View Code
+                  </span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="projects_container">
+          <div className="project">
+            <div className="project_videocontainer">
+              <div data-aos="fade-right">
+                <img
                   src="https://user-images.githubusercontent.com/94324872/159179521-7b64d353-b169-4b71-b856-fd0300d6ff2f.png"
                   alt="Overstock"
                 />
@@ -125,98 +216,8 @@ export const Projects = () => {
             </div>
           </div>
         </div>
-        <div className="projects_container">
-          <div className="project">
-            <div className="project_videocontainer">
-              <div data-aos="fade-right">
-                <img
-                  src="https://user-images.githubusercontent.com/94324872/171921832-7950e4de-01ca-4372-9881-b26bf55d6247.png"
-                  alt=""
-                />
-              </div>
-            </div>
-            <div className="project_information" data-aos="fade-right">
-              <h2>E-Commerce</h2>
-              <p>
-                E-Commerce web application were user can buy different product. It is a solo project and has most of the features of the shopping websites.
-              </p>
-              <div>
-              <SiExpress />
-                <SiMongodb />
-              <FaReact />
-                <SiNodedotjs />
-                <SiRedux/>
-                
-              </div>
-              <div>
-                <a
-                  href="https://e-commerce-alokkushwaha.vercel.app/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <span type="button" className="btn btn--outline onbt">
-                    URL for the API
-                  </span>
-                </a>
-                <a
-                  href="https://github.com/Alok0818/E-Commerce-mern-website"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <span type="button" className="btn btn--outline">
-                    View Code
-                  </span>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="projects_container">
-          <div className="project">
-            <div className="project_videocontainer">
-              <div data-aos="fade-right">
-                <img
-                  src="https://user-images.githubusercontent.com/94324872/172460267-93a6d763-a318-40b4-b3e8-748994eac684.png"
-                  alt="Practo"
-                />
-              </div>
-            </div>
-            <div className="project_information" data-aos="fade-right">
-              <h2>Practo</h2>
-              <p>
-              Practo is leading healthcare platform that connects patients with healthcare products and providers online.
-              </p>
-              <div>
-              <SiExpress />
-                <SiMongodb />
-              <FaReact />
-                <SiNodedotjs />
-                <SiRedux/>
-              </div>
-              <div>
-                <a
-                  href="https://practo-pranavdalvi9.vercel.app/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <span type="button" className="btn btn--outline onbt">
-                    See this Live
-                  </span>
-                </a>
-                <a
-                  href="https://github.com/PranavDalvi9/PractoCloneReact"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <span type="button" className="btn btn--outline">
-                    View Code
-                  </span>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="projects_container">
+
+        {/* <div className="projects_container">
           <div className="project">
             <div className="project_videocontainer">
               <div data-aos="fade-right">
@@ -258,7 +259,7 @@ export const Projects = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </>
   );
