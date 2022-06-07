@@ -15,6 +15,7 @@ import {
   SiMongodb,
   SiNodedotjs,
   SiCss3,
+  SiRedux,
 } from "react-icons/si";
 import { DiCss3 } from "react-icons/di";
 import { VscJson } from "react-icons/vsc";
@@ -124,31 +125,32 @@ export const Projects = () => {
             </div>
           </div>
         </div>
-        {/* <div className="projects_container">
+        <div className="projects_container">
           <div className="project">
             <div className="project_videocontainer">
               <div data-aos="fade-right">
                 <img
-                  src="https://news-cdn.softpedia.com/images/news2/Dropbox-2-9-Enters-Development-with-Streaming-Sync-Feature-442773-2.jpg"
+                  src="https://user-images.githubusercontent.com/94324872/171921832-7950e4de-01ca-4372-9881-b26bf55d6247.png"
                   alt=""
                 />
               </div>
             </div>
             <div className="project_information" data-aos="fade-right">
-              <h2>Backend API for Drive / DropBox Clone </h2>
+              <h2>E-Commerce</h2>
               <p>
-                Backend API for a google drive like app built using NodeJS,
-                Express, Mongoose, MongoDB Atlas and AWS S3 for storage. A solo
-                project. CRUD operations for users, files and folders.
+                E-Commerce web application were user can buy different product. It is a solo project and has most of the features of the shopping websites.
               </p>
               <div>
-                <SiNodedotjs />
-                <SiExpress />
+              <SiExpress />
                 <SiMongodb />
+              <FaReact />
+                <SiNodedotjs />
+                <SiRedux/>
+                
               </div>
               <div>
                 <a
-                  href="https://drive-system.herokuapp.com/"
+                  href="https://e-commerce-alokkushwaha.vercel.app/"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -157,7 +159,7 @@ export const Projects = () => {
                   </span>
                 </a>
                 <a
-                  href="https://github.com/imbickydutta/file-system-backend"
+                  href="https://github.com/Alok0818/E-Commerce-mern-website"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -168,30 +170,32 @@ export const Projects = () => {
               </div>
             </div>
           </div>
-        </div> */}
-        {/* <div className="projects_container">
+        </div>
+        <div className="projects_container">
           <div className="project">
             <div className="project_videocontainer">
               <div data-aos="fade-right">
                 <img
-                  src="https://i.ibb.co/1bsxCjF/Screenshot-349.png"
-                  alt="TicTacToe"
+                  src="https://user-images.githubusercontent.com/94324872/172460267-93a6d763-a318-40b4-b3e8-748994eac684.png"
+                  alt="Practo"
                 />
               </div>
             </div>
             <div className="project_information" data-aos="fade-right">
-              <h2>Classic TicTacToe</h2>
+              <h2>Practo</h2>
               <p>
-                Mini project of A classic TicTacToe game built using ReactJS. Features : Button for Resetting The Game, History of all the moves played (undo a move), etc.
+              Practo is leading healthcare platform that connects patients with healthcare products and providers online.
               </p>
               <div>
-                <FaReact />
-                <SiHtml5 />
-                <DiCss3 />
+              <SiExpress />
+                <SiMongodb />
+              <FaReact />
+                <SiNodedotjs />
+                <SiRedux/>
               </div>
               <div>
                 <a
-                  href="https://tictactoe-bicky.netlify.app/"
+                  href="https://practo-pranavdalvi9.vercel.app/"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -200,7 +204,7 @@ export const Projects = () => {
                   </span>
                 </a>
                 <a
-                  href="https://github.com/imbickydutta/tictactoe/tree/master"
+                  href="https://github.com/PranavDalvi9/PractoCloneReact"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -254,7 +258,7 @@ export const Projects = () => {
               </div>
             </div>
           </div>
-        </div> */}
+        </div>
       </div>
     </>
   );

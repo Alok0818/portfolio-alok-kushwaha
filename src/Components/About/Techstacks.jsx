@@ -51,6 +51,11 @@ export const Techstacks = () => {
           </div>
 
           <div>
+            <SiRedux />
+            <h5>Redux</h5>
+          </div>
+
+          <div>
             <SiMaterialui />
             <h5>Material Ui</h5>
           </div>
@@ -62,10 +67,7 @@ export const Techstacks = () => {
             <SiTailwindcss />
             <h5>Tailwind CSS</h5>
           </div>
-          <div>
-            <SiNetlify />
-            <h5>Netlify</h5>
-          </div>
+          
           <div>
             <VscGithub />
             <h5>Github</h5>
