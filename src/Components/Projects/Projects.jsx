@@ -123,20 +123,18 @@ export const Projects = () => {
             <div className="project_videocontainer">
               <div data-aos="fade-right">
                 <img
-                  src="https://user-images.githubusercontent.com/94324872/159179521-7b64d353-b169-4b71-b856-fd0300d6ff2f.png"
+                  src="https://user-images.githubusercontent.com/94324872/174451129-ba81dba4-2339-40ea-901f-db4e72bcee8d.png"
                   alt="Overstock"
                 />
               </div>
             </div>
             <div className="project_information" data-aos="fade-right">
-              <h2>Overstock Clone</h2>
+              <h2>Alex Store</h2>
               <p>
-                A web application to buy household goods like furniture,
-                decoration materials and many more. A collaborative project
-                built by a team of 4, executed in 5 days.
+                A web application to where user can buy products, sort and filter, search and add the product to the cart .
               </p>
               <div>
-                {/* <FaReact /> */}
+                <FaReact />
                 <SiHtml5 />
                 <SiCss3 />
                 <IoLogoJavascript />
@@ -146,7 +144,7 @@ export const Projects = () => {
               </div>
               <div>
                 <a
-                  href="https://overstock-front-end-clone.vercel.app/"
+                  href="https://alex-store.vercel.app/"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -155,7 +153,7 @@ export const Projects = () => {
                   </span>
                 </a>
                 <a
-                  href="https://github.com/Alok0818/Overstock-front-End-clone"
+                  href="https://github.com/Alok0818/Alex-Store"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -172,30 +170,26 @@ export const Projects = () => {
             <div className="project_videocontainer">
               <div data-aos="fade-right">
                 <img
-                  src="https://user-images.githubusercontent.com/94324872/159302172-1d3467d2-63e5-4d50-b6c6-d9b56ad1cfc3.png"
-                  alt="Orbitz"
+                  src="https://user-images.githubusercontent.com/94324872/174451638-eb29e1d3-de83-406e-af8a-5a168c94380a.png"
+                  alt="To-Do-App"
                 />
               </div>
             </div>
             <div className="project_information" data-aos="fade-right">
-              <h2>Orbitz Clone</h2>
+              <h2>To-Do Application</h2>
               <p>
-                A web application to book transport tickets, hotels very easily
-                at an exclusive discount price. A collaborative project built by
-                a team of 6, executed in 5 days.
+              To-Do Application, MERN project where a user can Create task. The user can Update, Edit, Delete and also change the status of task.
               </p>
               <div>
-                <SiHtml5 />
-                <SiCss3 />
-                <IoLogoJavascript />
-                {/* <FaReact />
+              <SiExpress />
+                <SiMongodb />
+              <FaReact />
                 <SiNodedotjs />
-                <SiExpress />
-                <SiMongodb /> */}
+                <SiRedux/>
               </div>
               <div>
                 <a
-                  href="https://jovial-meitner-7c3368.netlify.app/"
+                  href="https://to-do-app-alokkushwaha.vercel.app/"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -204,7 +198,7 @@ export const Projects = () => {
                   </span>
                 </a>
                 <a
-                  href="https://github.com/Alok0818/Orbitz-clone-unit-2"
+                  href="https://github.com/Alok0818/To-Do-Application"
                   target="_blank"
                   rel="noreferrer"
                 >
